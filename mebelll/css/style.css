@@ -1,0 +1,140 @@
+.header .topHeader {
+  background-color: black;
+  padding: 20px 0;
+}
+
+.header .topHeader .op select {
+  background: transparent;
+  color: #fff;
+  border: none;
+}
+
+.header .topHeader .op select option {
+  background-color: #000;
+}
+
+.header .topHeader .op a {
+  color: #fff;
+}
+
+.header .bottomHeader {
+  padding: 10px 0;
+}
+
+.header .bottomHeader .left ul li {
+  cursor: pointer;
+  padding: 0 10px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  position: relative;
+}
+
+.header .bottomHeader .left ul li::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  bottom: 0;
+  border-bottom: 2px solid greenyellow;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.header .bottomHeader .left ul li:hover {
+  color: greenyellow;
+}
+
+.header .bottomHeader .left ul li:hover::before {
+  width: 70%;
+}
+
+.header .bottomHeader .right i {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+#provide {
+  background: url(../photo/bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#provide .text {
+  color: #fff;
+  padding: 100px 0;
+}
+
+#provide .text h1 {
+  padding: 10px 0;
+}
+
+#provide .text p {
+  padding: 10px 0;
+}
+
+#provide .text button {
+  background: transparent;
+  padding: 10px 30px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+#provide .second-img {
+  padding: 50px 0;
+}
+
+#table {
+  margin: 80px 0;
+}
+
+#table .dmg {
+  padding: 80px;
+  border: 1px solid #e4e3e3;
+  background-color: #fcf8f8;
+  position: relative;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+}
+
+#table .dmg:hover p {
+  display: block;
+}
+
+#table p {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#table img {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#sofa {
+  margin: 100px 0;
+}
+
+#sofa .right .top {
+  padding-left: 30px;
+  border: 1px solid #ddd;
+}
+
+#sofa .right .bottom .all {
+  position: relative;
+}
+
+#sofa .right .bottom .all p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+/*# sourceMappingURL=style.css.map */
